@@ -1,0 +1,18 @@
+.ListPage {
+    padding-top: 30px;
+
+    &__title-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    &__title {
+        font-weight: 400;
+        margin-right: 5px;
+    }
+
+    &__count {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.header {
+    background-color: $header-bg-color;
+    color: white;
+    height: 50px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__logo {
+        width: 50px;
+    }
+}
